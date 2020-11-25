@@ -31,10 +31,3 @@ switch(text){
 	botAnswer.innerText = 'Хочешь посмотреть на щенят?Пиши"Хочу увидеть щенят!"';
 
 }})
-
-var pc = document.getElementById("pic_cntr");
-     botAnswer.innerHTML="<img src='http://www.stihi.ru/pics/2010/02/27/2487.jpg'>";
-
-var img = new Image();
-img.src = 'https://sun9-49.userapi.com/c850324/v850324974/d096f/mx_dWs7JFCA.jpg'
-pc.appendChild(img)
