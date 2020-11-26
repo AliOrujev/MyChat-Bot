@@ -31,3 +31,27 @@ switch(text){
 	botAnswer.innerText = 'Хочешь посмотреть на щенят?Пиши"Хочу увидеть щенят!"';
 
 }})
+
+askButton.addEventListener('mouseover', ()=>{
+askButton.style.background = '#DAA520'
+})
+
+askButton.addEventListener('mouseout', ()=>{
+askButton.style.background = '#ffbc5d'
+})
+
+let h1 = document.querySelector('h1');
+
+
+
+h1.onclick = ()=>{
+if(h1.style.color == 'white'){
+	h1.style.background = 'white'
+	h1.innerText = 'CHAT-BOT prod. by Ali'
+	h1.style.color = 'black'
+} else {
+	h1.style.background = '#4520ab'
+	h1.innerText = 'CHAT-BOT prod. by Ali'
+	h1.style.color = 'white'
+}}
+

@@ -14,15 +14,15 @@ h1{
 	background-color: #4520ab;
 	font-size:12px;
     border: 2px solid  #4520ab;
-    color: #29edff;
+    color: white;
     border-radius: 6px;
     text-align: center;
     padding:5px;
-    font-family:  RF Rostin,Arial,sans-serif;
+    font-family:  Snell Roundhand, cursive;
 
 }
 #answer {
-	font-family:  RF Rostin,Arial,sans-serif;
+	font-family:  Snell Roundhand, cursive;
 	color: #4520ab;
 	font-size:12px;
 	overflow: scroll;
@@ -42,9 +42,9 @@ h1{
 	padding-left: 6px;
 }
 #myButton {
-	font-family:  RF Rostin,Arial,sans-serif;
+	font-family: Snell Roundhand, cursive;
 	font-size: 12px;
-	color: #4520ab;	
+	color: white;	
 	background-color: #ffbc5d;
 	border: 1px solid #ffbc5d;
 	border-radius: 6px;
@@ -64,7 +64,7 @@ p {
 	color:black;
 	padding-right: 13px;
 	margin-left: 15px;
-	font-family:  RF Rostin,Arial,sans-serif;
+	font-family: Snell Roundhand, cursivey;
 	padding: 5px 0 5px 0;
 }
 
@@ -73,7 +73,7 @@ p {
 	color: black;
 	border-radius: 3px;
 	margin-right: 15px;
-	font-family:  RF Rostin,Arial,sans-serif;
+	font-family:  Snell Roundhand, cursive;
 	padding: 5px 0 5px 0;
 }
 
