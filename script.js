@@ -8,6 +8,12 @@ askButton.addEventListener('click', ()=>{
 	answerSection.appendChild(question)
 	let botAnswer = document.createElement('div');
 answerSection.appendChild(botAnswer);
+  
+  setTimeout(()=> {
+	ras(askButton, 'Отправить!')
+}, 1000);
+askButton.innerText = 'Сообщение отправлено!';
+
 switch(text){
 	case 'Привет!':
 	botAnswer.innerText='Привет, мой дорогой друг, это Chat-Bot, для продолжения диалога напиши "Да"';
@@ -29,8 +35,12 @@ switch(text){
 	break;
 	default:
 	botAnswer.innerText = 'Хочешь посмотреть на щенят?Пиши"Хочу увидеть щенят!"';
-
+ 
 }})
+
+function ras (node, text) {
+node.textContent = text;
+}
 
 askButton.addEventListener('mouseover', ()=>{
 askButton.style.background = '#DAA520'
